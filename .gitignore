@@ -4,5 +4,25 @@ dist/
 coverage/
 .DS_Store
 *.log
+
+# Environment files
 .env*
 !.env.example
+
+# Python (in case you use backend later)
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Cache & test
+.cache/
+.pytest_cache/
+.coverage
+
+# Misc
+.ipynb_checkpoints
